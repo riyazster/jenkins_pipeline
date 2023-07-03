@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                 "touch abc"
+                 touch abc
             }
         }
         stage('Deploy') {
