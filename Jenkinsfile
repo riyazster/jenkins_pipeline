@@ -5,19 +5,19 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                touch abc
+                sh "touch abc"
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-                touch abc
+                sh "touch abc"
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                touch abc
+                sh "touch abc"
             }
         }
     }
